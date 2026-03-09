@@ -1,0 +1,131 @@
+{
+    "navigation": {
+        "home": "Home",
+        "cottages": "Cottages",
+        "amenities": "Amenities",
+        "location": "Location",
+        "activities": "Activities",
+        "gallery": "Gallery",
+        "booking": "Booking",
+        "contact": "Contact",
+        "virtualTour": "360° walk"
+    },
+    "hero": {
+        "title": "Domki u Elizy",
+        "eyebrow": "Luxury cottages in Zakopane",
+        "description": "Discover an unforgettable getaway in our luxury cottages located in the picturesque Tatra region. The perfect place for a romantic weekend, family vacation, or meeting with friends.",
+        "imageAlt": "Luxury cottage exterior at night",
+        "primaryCta": "Book your stay",
+        "secondaryCta": "See the cottages",
+        "badges": {
+            "parking": "Private parking",
+            "wifi": "Fast Wi-Fi",
+            "proximity": "6 km from Zakopane"
+        }
+    },
+    "cottages": {
+        "title": "Our Cottages",
+        "subtitle": "Comfort and luxury in Tatra style",
+        "description": "Each of our cottages has been designed with attention to the smallest details, combining traditional Tatra style with modern comfort.",
+        "features": {
+            "capacity": "Up to 6 people",
+            "bedrooms": "3 bedrooms",
+            "bathroom": "2 bathrooms",
+            "kitchen": "Equipped kitchen",
+            "fireplace": "Fireplace",
+            "terrace": "Terrace with view"
+        },
+        "kitchen": "Kitchen equipment",
+        "amenities": "Amenities",
+        "cta": "View details",
+        "bookCta": "Book now"
+    },
+    "amenities": {
+        "title": "Amenities",
+        "subtitle": "Everything you need",
+        "list": [
+            "Wireless internet",
+            "Smart TV",
+            "Air conditioning",
+            "Washing machine",
+            "Hair dryer",
+            "Iron",
+            "BBQ area",
+            "Parking",
+            "Sauna",
+            "Jacuzzi",
+            "Board games",
+            "Books"
+        ]
+    },
+    "location": {
+        "title": "Location",
+        "subtitle": "Heart of the Tatras at your fingertips",
+        "description": "Our cottages are located in a picturesque area, just a few minutes from the most important attractions of the region.",
+        "highlights": [
+            "15 min to Kuźnice",
+            "10 min to Krupówki",
+            "20 min to Morskie Oko",
+            "5 min to ski slope"
+        ]
+    },
+    "activities": {
+        "title": "Activities",
+        "subtitle": "What to do nearby",
+        "categories": {
+            "winter": "Winter",
+            "summer": "Summer",
+            "yearRound": "All year"
+        }
+    },
+    "virtualTour": {
+        "title": "360° Walkthrough",
+        "subtitle": "Immerse yourself in the cottages before you arrive",
+        "cta": "Open the virtual walk"
+    },
+    "gallery": {
+        "title": "Gallery",
+        "subtitle": "See our cottages"
+    },
+    "booking": {
+        "title": "Booking",
+        "subtitle": "Reserve your stay",
+        "description": "Check availability and book your dream vacation in the Tatras.",
+        "form": {
+            "checkin": "Check-in",
+            "checkout": "Check-out",
+            "guests": "Guests",
+            "submit": "Check availability"
+        },
+        "helper": "Secure booking — direct with us",
+        "fallbackCta": "Open booking in a new tab",
+        "fallbackNotice": "The booking widget did not load properly. Use the link below instead."
+    },
+    "contact": {
+        "title": "Contact",
+        "subtitle": "Get in touch",
+        "description": "We will gladly answer all questions and help with reservations.",
+        "info": {
+            "phone": "Phone",
+            "email": "Email",
+            "address": "Address"
+        },
+        "form": {
+            "name": "Name",
+            "email": "Email",
+            "message": "Message",
+            "submit": "Send message"
+        },
+        "callCta": "Call"
+    },
+    "footer": {
+        "copyright": " 2024 Domki u Elizy. All rights reserved.",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service"
+    },
+    "virtualTour": {
+        "title": "360° Walkthrough",
+        "subtitle": "Immerse yourself in the cottages before you arrive",
+        "cta": "Open the virtual walk"
+    }
+}

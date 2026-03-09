@@ -1,0 +1,126 @@
+{
+    "navigation": {
+        "home": "Strona główna",
+        "cottages": "Domki",
+        "amenities": "Udogodnienia",
+        "location": "Lokalizacja",
+        "activities": "Atrakcje",
+        "virtualTour": "Spacer 360°",
+        "gallery": "Galeria",
+        "booking": "Rezerwacja",
+        "contact": "Kontakt"
+    },
+    "hero": {
+        "title": "Domki u Elizy",
+        "eyebrow": "Luksusowe domki w sercu Tatr",
+        "description": "Odkryj niezapomniany wypoczynek w naszych luksusowych domkach położonych w malowniczej okolicy Tatr. Idealne miejsce na romantyczny weekend, rodzinny urlop czy spotkanie z przyjaciółmi.",
+        "imageAlt": "Nowoczesny domek nocą",
+        "primaryCta": "Zarezerwuj pobyt",
+        "secondaryCta": "Zobacz domki",
+        "badges": {
+            "parking": "Parking prywatny",
+            "wifi": "Szybkie Wi-Fi",
+            "proximity": "6 km od Zakopanego"
+        }
+    },
+    "cottages": {
+        "title": "Nasze Domki",
+        "subtitle": "Komfort i luksus w tatrzańskim stylu",
+        "description": "Każdy z naszych domków został zaprojektowany z dbałością o najdrobniejsze detale, łącząc tradycyjny tatrzański styl z nowoczesnym komfortem.",
+        "features": {
+            "capacity": "Pojemność domku",
+            "bedrooms": "Sypialnie",
+            "bathroom": "Łazienki",
+            "kitchen": "Kuchnia wyposażona",
+            "fireplace": "Kominek",
+            "terrace": "Taras z widokiem"
+        },
+        "kitchen": "Wyposażenie kuchni",
+        "amenities": "Udogodnienia",
+        "cta": "Zobacz szczegóły",
+        "bookCta": "Zarezerwuj"
+    },
+    "amenities": {
+        "title": "Udogodnienia",
+        "subtitle": "Wszystko czego potrzebujesz",
+        "list": [
+            "Bezprzewodowy internet",
+            "Telewizor Smart TV",
+            "Klimatyzacja",
+            "Pralka",
+            "Suszarka do włosów",
+            "Żelazko",
+            "Miejsce na grilla",
+            "Parking",
+            "Sauna",
+            "Jacuzzi",
+            "Gry planszowe",
+            "Książki"
+        ]
+    },
+    "location": {
+        "title": "Lokalizacja",
+        "subtitle": "Serce Tatr na wyciągnięcie ręki",
+        "description": "Nasze domki znajdują się w malowniczej okolicy, zaledwie kilkanaście minut od najważniejszych atrakcji regionu.",
+        "highlights": [
+            "15 min do Kuźnic",
+            "10 min do Krupówek",
+            "20 min do Morskiego Oka",
+            "5 min do stoku narciarskiego 'Suche'"
+        ]
+    },
+    "activities": {
+        "title": "Atrakcje",
+        "subtitle": "Co robić w okolicy",
+        "categories": {
+            "winter": "Zima",
+            "summer": "Lato",
+            "yearRound": "Cały rok"
+        }
+    },
+    "gallery": {
+        "title": "Galeria",
+        "subtitle": "Zobacz nasze domki"
+    },
+    "booking": {
+        "title": "Rezerwacja",
+        "subtitle": "Zarezerwuj swój pobyt",
+        "description": "Sprawdź dostępność i zarezerwuj wymarzony urlop w Tatrach.",
+        "form": {
+            "checkin": "Zameldowanie",
+            "checkout": "Wymeldowanie",
+            "guests": "Goście",
+            "submit": "Sprawdź dostępność"
+        },
+        "helper": "Bezpieczna rezerwacja — zsynchronizowana z Booking.com",
+        "fallbackCta": "Otwórz rezerwację w nowej karcie",
+        "fallbackNotice": "Widżet nie załadował się prawidłowo. Skorzystaj z linku poniżej."
+    },
+    "contact": {
+        "title": "Kontakt",
+        "subtitle": "Skontaktuj się z nami",
+        "description": "Chętnie odpowiemy na wszystkie pytania i pomożemy w rezerwacji.",
+        "info": {
+            "phone": "Telefon",
+            "email": "Email",
+            "address": "Adres"
+        },
+        "form": {
+            "name": "Imię",
+            "email": "Email",
+            "message": "Wiadomość",
+            "submit": "Wyślij wiadomość"
+        },
+        "callCta": "Zadzwoń"
+    },
+    "footer": {
+        "copyright": " 2024 Domki u Elizy. Wszystkie prawa zastrzeżone.",
+        "privacy": "Polityka prywatności",
+        "terms": "Regulamin"
+    },
+    "virtualTour": {
+        "title": "Spacer 360°",
+        "subtitle": "Zanurz się w naszych domkach w trybie VR",
+        "cta": "Przejdź do spaceru"
+    }
+}
