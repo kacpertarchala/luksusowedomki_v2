@@ -42,13 +42,6 @@ export const Footer = () => {
             <h4 className="font-semibold">Linki</h4>
             <div className="space-y-2 text-sm flex flex-col">
               <Link
-                href={siteConfig.legal.privacyPolicy}
-                className="transition-opacity hover:opacity-70"
-                style={{ color: '#E8D9C7' }}
-              >
-                {t("privacy")}
-              </Link>
-              <Link
                 href={siteConfig.legal.regulations}
                 className="transition-opacity hover:opacity-70"
                 style={{ color: '#E8D9C7' }}
