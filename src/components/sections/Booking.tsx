@@ -22,14 +22,14 @@ export const Booking = () => {
       </div>
 
       <Container>
-        <div className="relative z-10 space-y-8">
-          <p className="text-base uppercase tracking-[0.35em] text-[#9E521F]">
+        <div className="relative z-10 space-y-6 md:space-y-8">
+          <p className="text-sm md:text-base uppercase tracking-[0.35em] text-[#9E521F] text-center">
             {t("description")}
           </p>
 
-          <div className="relative mx-auto" style={{ width: "70vw", maxWidth: "1024px" }}>
-            <div className="absolute -inset-6 rounded-[40px] bg-white/40 blur-2xl" aria-hidden />
-            <div className="relative rounded-[36px] border border-white/50 bg-white/80 p-4 shadow-[0_35px_80px_rgba(29,25,22,0.15)]">
+          <div className="relative mx-auto w-full max-w-[95vw] md:max-w-[85vw] lg:max-w-4xl">
+            <div className="absolute -inset-6 rounded-[40px] bg-white/40 blur-2xl hidden md:block" aria-hidden />
+            <div className="relative md:rounded-[36px] md:border md:border-white/50 md:bg-white/80 md:p-4 md:shadow-[0_35px_80px_rgba(29,25,22,0.15)]">
               <BookingWidget />
             </div>
           </div>

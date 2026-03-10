@@ -115,7 +115,7 @@ export const Gallery = () => {
 
         {activeImage && (
           <div
-            className="fixed inset-0 z-50 flex items-center justify-center p-4"
+            className="fixed inset-0 z-50 flex items-center justify-center p-3 md:p-4"
             role="dialog"
             aria-modal="true"
           >
@@ -123,16 +123,17 @@ export const Gallery = () => {
               className="absolute inset-0 bg-black/70"
               onClick={() => setActiveIndex(null)}
             ></div>
-            <div className="relative z-10 w-full max-w-5xl bg-white rounded-2xl shadow-2xl p-6 grid md:grid-cols-[3fr_1.2fr] gap-6">
+            <div className="relative z-10 w-full max-w-5xl bg-white rounded-2xl shadow-2xl p-4 md:p-6 flex flex-col max-h-[calc(100vh-24px)] md:max-h-[90vh]">
               <button
                 type="button"
                 onClick={() => setActiveIndex(null)}
-                className="absolute top-4 right-4 text-[#1D1916] hover:text-[#9E521F]"
+                className="absolute top-3 right-3 md:top-4 md:right-4 text-[#1D1916] hover:text-[#9E521F] z-10 text-2xl"
                 aria-label="Zamknij galerię"
               >
                 ✕
               </button>
-              <div className="relative w-full h-[50vh] rounded-xl overflow-hidden">
+              
+              <div className="relative w-full aspect-[4/3] md:aspect-video rounded-xl overflow-hidden mb-4">
                 <Image
                   src={activeImage.src}
                   alt={activeImage.alt}
@@ -143,7 +144,7 @@ export const Gallery = () => {
                 <button
                   type="button"
                   aria-label="Poprzednie zdjęcie"
-                  className="absolute left-3 top-1/2 -translate-y-1/2 rounded-full bg-white/80 p-2 text-xl text-[#1D1916] shadow hover:bg-white"
+                  className="absolute left-2 md:left-3 top-1/2 -translate-y-1/2 rounded-full bg-white/90 p-2 text-xl text-[#1D1916] shadow hover:bg-white"
                   onClick={() => cycleImage(-1)}
                 >
                   ‹
@@ -151,34 +152,37 @@ export const Gallery = () => {
                 <button
                   type="button"
                   aria-label="Następne zdjęcie"
-                  className="absolute right-3 top-1/2 -translate-y-1/2 rounded-full bg-white/80 p-2 text-xl text-[#1D1916] shadow hover:bg-white"
+                  className="absolute right-2 md:right-3 top-1/2 -translate-y-1/2 rounded-full bg-white/90 p-2 text-xl text-[#1D1916] shadow hover:bg-white"
                   onClick={() => cycleImage(1)}
                 >
                   ›
                 </button>
               </div>
-              <div className="space-y-3 overflow-auto max-h-[50vh] pr-1">
-                {siteConfig.gallery.map((image, index) => (
-                  <button
-                    type="button"
-                    key={image.src}
-                    onClick={() => setActiveIndex(index)}
-                    className="group relative w-full min-h-[90px] rounded-xl overflow-hidden border-2 transition focus-visible:ring-2 focus-visible:ring-[#9E521F]"
-                    style={{
-                      borderColor: index === activeIndex ? '#9E521F' : 'rgba(255,255,255,0.4)',
-                      boxShadow: index === activeIndex ? '0 0 0 1px #9E521F' : '0 1px 4px rgba(29, 25, 22, 0.12)'
-                    }}
-                  >
-                    <Image
-                      src={image.src}
-                      alt={image.alt}
-                      fill
-                      className="object-cover"
-                      sizes="180px"
-                    />
-                    <div className={`absolute inset-0 bg-black/30 transition-opacity ${index === activeIndex ? 'opacity-0' : 'opacity-10 group-hover:opacity-0'}`}></div>
-                  </button>
-                ))}
+
+              <div className="relative overflow-hidden">
+                <div className="flex gap-2 md:gap-3 overflow-x-auto pb-2 snap-x snap-mandatory scrollbar-hide">
+                  {siteConfig.gallery.map((image, index) => (
+                    <button
+                      type="button"
+                      key={image.src}
+                      onClick={() => setActiveIndex(index)}
+                      className="group relative flex-shrink-0 w-16 h-16 md:w-20 md:h-20 rounded-lg overflow-hidden border-2 transition snap-start focus-visible:ring-2 focus-visible:ring-[#9E521F]"
+                      style={{
+                        borderColor: index === activeIndex ? '#9E521F' : 'rgba(107, 106, 102, 0.2)',
+                        boxShadow: index === activeIndex ? '0 0 0 1px #9E521F' : '0 1px 4px rgba(29, 25, 22, 0.12)'
+                      }}
+                    >
+                      <Image
+                        src={image.src}
+                        alt={image.alt}
+                        fill
+                        className="object-cover"
+                        sizes="80px"
+                      />
+                      <div className={`absolute inset-0 bg-black/30 transition-opacity ${index === activeIndex ? 'opacity-0' : 'opacity-10 group-hover:opacity-0'}`}></div>
+                    </button>
+                  ))}
+                </div>
               </div>
             </div>
           </div>

@@ -88,38 +88,36 @@ export const BookingWidget = () => {
         clearTimeout(failTimeout);
       }
     };
-  }, []);
+  }, [hasDynamicHeight]);
 
   const handleFallback = () => {
     window.open(siteConfig.contact.bookingWidgetFallbackUrl, "_blank", "noopener,noreferrer");
   };
 
   return (
-    <div className="space-y-6 rounded-[32px] border border-white/60 bg-white/85 p-6 md:p-9 shadow-[0_35px_80px_rgba(29,25,22,0.15)] backdrop-blur">
-      <div className="rounded-[24px] border border-[#E3D5C4] bg-white/95 p-2 md:p-4 shadow-inner overflow-visible">
-        <iframe
-          ref={iframeRef}
-          id="ra-reservation-form-v2"
-          title="Booking widget"
-          src={siteConfig.contact.bookingWidgetSrc}
-          style={{
-            width: "100%",
-            border: "none",
-            padding: 0,
-            display: "block",
-            background: "transparent",
-            borderRadius: "16px",
-            minHeight: hasDynamicHeight ? undefined : baseHeight,
-            height: iframeHeight,
-            transition: "height 200ms ease",
-          }}
-          loading="lazy"
-          onError={() => setHasError(true)}
-        />
-      </div>
+    <div className="space-y-6">
+      <iframe
+        ref={iframeRef}
+        id="ra-reservation-form-v2"
+        title="Booking widget"
+        src={siteConfig.contact.bookingWidgetSrc}
+        style={{
+          width: "100%",
+          border: "none",
+          padding: 0,
+          display: "block",
+          background: "transparent",
+          borderRadius: "12px",
+          minHeight: hasDynamicHeight ? undefined : baseHeight,
+          height: iframeHeight,
+          transition: "height 200ms ease",
+        }}
+        loading="lazy"
+        onError={() => setHasError(true)}
+      />
 
       {hasError && (
-        <div className="space-y-4 rounded-[24px] border border-[#F5C7B0] bg-[#FFF6F1] p-6 text-center">
+        <div className="space-y-4 rounded-2xl border border-[#F5C7B0] bg-[#FFF6F1] p-4 md:p-6 text-center">
           <p className="text-sm leading-relaxed text-[#6B6A66]">{t("fallbackNotice")}</p>
 
           <Button
