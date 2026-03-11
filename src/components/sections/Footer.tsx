@@ -61,13 +61,6 @@ export const Footer = () => {
               >
                 Facebook
               </a>
-              <a
-                href={siteConfig.social.instagram}
-                className="transition-opacity hover:opacity-70"
-                style={{ color: '#E8D9C7' }}
-              >
-                Instagram
-              </a>
             </div>
           </div>
         </div>

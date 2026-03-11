@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
 import { useLocale, useTranslations } from "next-intl";
-import { useRouter, usePathname } from "@/navigation";
+import { useRouter, usePathname, Link } from "@/navigation";
 import { siteConfig } from "@/content/site";
 import { cn } from "@/lib/utils";
 
@@ -60,10 +60,10 @@ export const Navigation = () => {
       <Container>
         <div className="relative">
         <div className="flex h-18 items-center gap-6">
-          <button
+          <Link
+            href="/"
             className="group flex h-full items-center shrink-0 -ml-3"
-            onClick={() => scrollToSection("home")}
-            aria-label="Scroll to top"
+            aria-label="Go to homepage"
           >
             <span className="relative block h-full w-45">
               <Image
@@ -75,7 +75,7 @@ export const Navigation = () => {
                 priority
               />
             </span>
-          </button>
+          </Link>
 
           <div className="hidden flex-1 items-center [@media(min-width:1000px)]:flex">
             <div className="flex flex-1 flex-nowrap items-center justify-center gap-4 text-sm font-semibold">

@@ -31,6 +31,18 @@ export const Activities = () => {
       height: 800,
     },
     {
+      src: "/images/7a728534-1f86-4c8a-9463-847c27becb40-scaled.webp",
+      alt: "Wieża widokowa SkyWalk Poronin",
+      width: 1200,
+      height: 800,
+    },
+    {
+      src: "/images/spływ-dunajcem-z-widokiem-na-trzy-korony.jpg",
+      alt: "Spływ Dunajcem",
+      width: 1200,
+      height: 800,
+    },
+    {
       src: "/images/84088963-1287-46b5-ab77-155d9f3de28e.jpg",
       alt: "Aktywności zimowe",
       width: 1080,
@@ -65,8 +77,8 @@ export const Activities = () => {
         </p>
 
         <div className="relative grid gap-12 lg:grid-cols-[minmax(0,0.55fr)_1fr] lg:items-stretch">
-          <div className="grid h-full grid-rows-4 gap-4">
-            {allActivities.slice(0, 4).map((activity) => (
+          <div className="grid h-full grid-rows-6 gap-4">
+            {allActivities.map((activity) => (
               <div
                 key={activity.title}
                 className="flex flex-col justify-between gap-3 rounded-[2rem] border border-[#D8CCBC] bg-white px-7 py-6 text-left shadow-[0_12px_30px_rgba(29,25,22,0.08)]"

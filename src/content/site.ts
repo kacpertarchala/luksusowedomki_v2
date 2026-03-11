@@ -207,10 +207,10 @@ export const siteContent: SiteContent = {
           },
           {
             name: "Domek u Nikoli",
-            guests: 7,
+            guests: 9,
             bedrooms: 3,
             bathrooms: 2,
-            description: "Domek 7-osobowy z trzema sypialniami, zapewniający więcej przestrzeni dla większych grup.",
+            description: "Domek 9-osobowy z trzema sypialniami, zapewniający więcej przestrzeni dla większych grup.",
             livingAreaHighlights: [
               "Salon z elektrycznym kominkiem",
               "Szybki internet bezprzewodowy",
@@ -254,6 +254,16 @@ export const siteContent: SiteContent = {
             {
               title: "Wspólne grillowanie",
               description: "Wieczory w ogrodzie przy drewnianej altanie, z lokalnymi produktami i światłami ogrodu.",
+            },
+          ],
+          yearRound: [
+            {
+              title: "Wieża widokowa SkyWalk Poronin",
+              description: "Nowoczesna wieża widokowa SkyWalk w Poroninie oferuje panoramiczne widoki na Tatry i okolicę oraz emocje na przeszklonych platformach.",
+            },
+            {
+              title: "Spływ Dunajcem",
+              description: "Niezapomniany spływ tratwą malowniczym przełomem Dunajca w Pieninach, z widokami na Trzy Korony i skalne ściany kanionu.",
             },
           ],
         },
@@ -373,6 +383,16 @@ export const siteContent: SiteContent = {
             {
               title: "Shared grilling evenings",
               description: "Open-air BBQ sessions under string lights with produce sourced from nearby farms.",
+            },
+          ],
+          yearRound: [
+            {
+              title: "SkyWalk Poronin Viewing Tower",
+              description: "The modern SkyWalk viewing tower in Poronin offers panoramic views of the Tatra Mountains and the surrounding area, plus thrills on its glass platforms.",
+            },
+            {
+              title: "Dunajec River Rafting",
+              description: "An unforgettable raft trip through the scenic Dunajec River Gorge in the Pieniny Mountains, with stunning views of Trzy Korony and dramatic canyon cliffs.",
             },
           ],
         },
