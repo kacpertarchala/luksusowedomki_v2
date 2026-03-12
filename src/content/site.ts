@@ -277,7 +277,7 @@ export const siteContent: SiteContent = {
       },
       amenities: {
         heading: "Wyposażenie",
-        description: "Każdy domek oferuje udogodnienia, które pozwalają odpocząć w standardzie butikowego hotelu – od szybkiego Wi‑Fi po planowaną strefę SPA.",
+        description: "Każdy domek oferuje udogodnienia, które pozwalają odpocząć w standardzie butikowego hotelu – od szybkiego Wi‑Fi po si.",
         items: [
           "Szybki internet Wi‑Fi",
           "Telewizory z kanałami satelitarnymi",
@@ -286,7 +286,7 @@ export const siteContent: SiteContent = {
           "Dwie łazienki w każdym domku",
           "Prywatny balkon lub taras",
           "Prywatny parking",
-          "Planowana strefa SPA (jacuzzi + sauna)",
+          "Siłownia",
         ],
       },
     },
@@ -415,7 +415,7 @@ export const siteContent: SiteContent = {
           "Two bathrooms in each cottage",
           "Private balcony or terrace",
           "Secure on-site parking",
-          "Planned wellness zone (jacuzzi + sauna)",
+          "Gym",
         ],
       },
     },
