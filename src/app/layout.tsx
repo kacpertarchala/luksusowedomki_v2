@@ -16,9 +16,6 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Luksusowe Domki u Elizy - Odpoczynek w Tatrach",
   description: "Luksusowe domki w Tatrach - komfortowy wypoczynek w sercu gór",
-  icons: {
-    icon: "/images/luksusowedomki_logo_miniatura.png",
-  },
 };
 
 export default async function RootLayout({
